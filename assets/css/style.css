@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 body {
@@ -14,17 +13,21 @@ body {
 }
 
 /*headings and logo*/
+
 h1, h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #706a6a;
-
 }
+
 #logo {
     float: left;
     font-size: 280%;
 }
+
+/* Navigation links */ 
+
 #menu {
     font-size:110%;
     letter-spacing: 4px;
@@ -43,15 +46,20 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu a:hover {
-    border-bottom: 1px slid #867a7a;
+    border-bottom: 1px solid #ecbc62;
 }
 
 .active {
-    border-bottom: 1px solid #867a7a;
+    border-bottom: 1px solid #706a6a;
+}
+
+#hero-image {
+  height: 600 px;
+  width: 100%;
+  background: url('../images/hero-image.JPG') no-repeat center center;
 }
 
 /*Footer*/
@@ -146,5 +154,6 @@ h1, h2 {
 
   /*Styling for Japan and Iceland*/
 
-  /*Styling for contact*/
+  /*Styling for contact page*/
+  
   
