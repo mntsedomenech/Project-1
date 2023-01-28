@@ -9,4 +9,19 @@
 body {
     font-family: montserrat;
     font-weight: 300;
+    color: #605d5d;
+}
+
+/*headings and logo*/
+
+h1, h2 {
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #605d5d;
+}
+
+#head {
+    float:left;
+    font-size: 250%;
 }
