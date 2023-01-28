@@ -102,3 +102,25 @@ h1 {
     padding-top: 30px;
     width: 0 auto;    
 }
+
+.left-a-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: #605d5d;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.right-a-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
