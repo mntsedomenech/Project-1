@@ -59,7 +59,6 @@ h1 {
 }
 
 .column-2 {
-    float: left;
     width: 45%;
     padding: 40px;
     padding-left:70px;
@@ -73,6 +72,7 @@ h1 {
   }
 
   .large-profile {
+    margin: auto;
     background: url('../images/IMG-3913-1.JPG');
     background-size: cover;
     background-position: center;
@@ -210,3 +210,23 @@ h5 p {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 1200px) {
+  .column-2 {
+    width: 60%;
+    height: 1200px;
+    margin: 0, auto;
+    padding: 30px 0;
+    width: 100%;
+    float: left;
+  }
+}
+
+.large-profile {
+    width: 60%;
+    height: 1200px;
+    margin: 0, auto;
+    padding: 30px 0;
+    width: 100%;
+    float: left;
+
+}
