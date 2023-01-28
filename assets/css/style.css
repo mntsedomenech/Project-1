@@ -56,16 +56,9 @@ h1 {
 /*about me section styling*/
 * {
     box-sizing: border-box;
-  }
-/* Large profile image */
-.large-profile {
-    background: url('../images/IMG-3913-1.JPG');
-    background-size: cover;
-    background-position: center;
-  }
-  
-  /* Create two equal columns that float next to each other */
-  .aboutme {
+}
+
+.column-2 {
     float: left;
     width: 45%;
     padding: 40px;
@@ -75,52 +68,25 @@ h1 {
     margin:30px;
     margin-right:30px;
     margin-bottom: 70px;
-    background-color: #e1b00e;
+    background-color: #eaa320;
     line-height:2;
-    text-justify: auto;
   }
 
-  /*get to know me section*/
-
-  #introduction {
-    height: 600px;
+  .large-profile {
+    background: url('../images/IMG-3913-1.JPG');
+    background-size: cover;
+    background-position: center;
   }
 
-  #left-a {
-      padding-top: 30px;
-      width: 33%;
-      float: left;
-  }
+  /*Photography styling*/
 
-  #right-a {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-a {
-    padding-top: 30px;
-    width: 0 auto;    
-}
-
-.left-a-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
+  #pictures {
     clear: both;
-    margin-bottom: 50px;
-}
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+  }
 
-hr {
-    border-top: #605d5d;
+  #photos > img {
     width: 100%;
-    margin: 5px 0;
-}
-
-.right-a-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
+  }
