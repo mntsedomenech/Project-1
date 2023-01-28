@@ -90,3 +90,87 @@ h1 {
   #pictures > img {
     width: 100%;
   }
+
+  /*Contact form styling*/
+
+  .container {
+    clear: both;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2px 100px;
+    margin: auto;
+  }
+
+  .contact-box {
+    clear: both;
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .left{
+    clear: both;
+    height: 100%;
+    width: 100%;
+  }
+
+  .right {
+    padding: 25px 40px;
+    background-color: #eaa320;
+  }
+
+  h3:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #eaa320;
+  }
+
+  .field {
+    width: 100%;
+    padding: 0.5rem 1 rem;
+    outline: none;
+    border: 2px solid;
+    background-color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+
+  .field:hover {
+    background-color: #fff;
+  }
+
+  .field:focus {
+    background: #fff;
+    border: 2px;
+  }
+
+  .area {
+    min-height: 150px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.5rem 1 rem;
+    font-size: 1.1rem;
+    background-color: #605d5d;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+
+  .btn:hover {
+    background-color: #eaa320;
+  }
