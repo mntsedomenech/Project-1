@@ -181,3 +181,35 @@ h5 p {
   text-align: justify;
   text-justify: inter-word;
 }
+
+/* footer style*/
+
+#footer {
+  clear: both;
+  height: 150px;
+}
+
+#copyright {
+  font-family: montserrat;
+  text-align: left;
+  font-size: small;
+}
+
+.footer-content-right {
+  display: inline;
+  text-align: right;
+}
+
+/* Newsletter*/
+
+.newsletter {
+  clear: both;
+  background-color: #9b9996;
+  text-align: center;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-right: 20%;
+  margin-bottom: 30px;
+}
+
