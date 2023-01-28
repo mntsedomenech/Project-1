@@ -174,3 +174,36 @@ h1 {
   .btn:hover {
     background-color: #eaa320;
   }
+
+  /*Destinations style blog*/
+
+ .left-colum {
+  float: left;
+  width: 75%;
+
+}
+
+.right-colum {
+  width: 25%;
+  float: right;
+}
+
+.card {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin: 1.5 0px;
+}
+
+h5 p {
+  font-family: montserrat;
+  text-align: justify;
+  text-justify: inter-word;
+}
