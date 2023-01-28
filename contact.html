@@ -33,24 +33,30 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div class="container">
-            <div class="contact-box">
-                <div class="left"> <img src="assets/images/IMG-3933.JPG" id="compicture" alt="complentary picture" ></div>
-                <div class="right">
-                    <h3>Contact Me</h3>
-                    <input type="text" class="field" placeholder="Your Name">
-                    <input type="email" class="field" placeholder="Your Email">
-                    <input type="text" class="field" placeholder="Your Phone">
-                    <textarea class="field" placeholder="Message"></textarea>
-                </div>
-            </div>
 
-        </div>
+    <div class="container">
+        <form action="action_page.php">
       
-    </section>
-    
-
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your Name">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Ireland">Australia</option>
+            <option value="Spain">Canada</option>
+            <option value="France">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
 </body>
 
 </html>
