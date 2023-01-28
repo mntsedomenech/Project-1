@@ -14,7 +14,7 @@ body {
 
 /*headings and logo*/
 
-h1, h2 {
+h1 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -24,4 +24,81 @@ h1, h2 {
 #head {
     float:left;
     font-size: 250%;
+    margin-left: 30px;
+}
+
+/*Menu styling*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color:#605d5d;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #605d5d;
+}
+
+/*about me section styling*/
+* {
+    box-sizing: border-box;
+  }
+/* Large profile image */
+.large-profile {
+    background: url('../images/IMG-3913-1.JPG');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Create two equal columns that float next to each other */
+  .aboutme {
+    float: left;
+    width: 45%;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 70px;
+    height: 475px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom: 70px;
+    background-color: #e1b00e;
+    line-height:2;
+    text-justify: auto;
+  }
+
+  /*get to know me section*/
+
+  #introduction {
+    height: 600px;
+  }
+
+  #left-a {
+      padding-top: 30px;
+      width: 33%;
+      float: left;
+  }
+
+  #right-a {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-a {
+    padding-top: 30px;
+    width: 0 auto;    
 }
